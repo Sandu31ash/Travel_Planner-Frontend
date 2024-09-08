@@ -7,12 +7,10 @@ function Itineraries() {
   const [endingDate, setEndingDate] = useState('');
   const [origin, setOrigin] = useState('');
   const [destination, setDestination] = useState('');
-  const [flights, setFlights] = useState([]);
-  const [hotels, setHotels] = useState([]);
+  // const [flights, setFlights] = useState([]);
+  // const [hotels, setHotels] = useState([]);
 
   const handleSend = () => {
-    // Implement logic to fetch flight and hotel data based on user inputs
-    // Replace with your actual API calls
     const fetchedFlights = [
       { airline: 'Airline1', flightNo: '123', date: '2024-09-10', time: '10:00 AM' },
       // ... more flights
@@ -33,7 +31,7 @@ function Itineraries() {
       <div className="container">
         <div className='textBtn'>
           <textarea placeholder="Enter your travel ideas as you wish..."></textarea>
-          <button className='itiBtn' onClick={handleSend}><IoSend size={25} color='white' className="chatbot-icon" /></button><br /><br />
+          <button className='itiBtn'><IoSend size={25} color='white' className="chatbot-icon" /></button><br /><br />
         </div>
 
         <div className="input-fields">
