@@ -1,0 +1,106 @@
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+.chat-page{
+    position: relative;
+    top: 5rem;
+}
+
+.jenni{
+    display: flex;
+}
+
+.jenni-name{
+    color: #5DC0DF;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+#jenni-icon{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    left: 1rem;
+}
+
+.para{
+    color: #34a9cd;
+    position: relative;
+    padding-left: 2rem;
+    /* justify-content:space-between; */
+}
+
+.chat-screen {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #5DC0DF, white);
+    padding: 20px;
+    /* border: 1px solid #5DC0DF; */
+    border-radius: 2rem;
+    margin: 5rem;
+    margin-top: 5rem;
+
+    *{
+        color: rgb(8, 105, 134);
+    }
+
+  }
+  
+  .chat-messages {
+    height: 80%;
+    overflow-y: scroll;
+  }
+  
+  .message {
+    margin: 10px 0;
+    background-color: whitesmoke;
+    border-radius: 5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+  
+  .user-message {
+    text-align: right;
+  }
+  
+  .chatbot-message {
+    text-align: left;
+  }
+
+  /* .chatbot-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  } */
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    /* height: 7rem; */
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 10px;
+    margin-right: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Prevent accidental resizing */
+    height: 5rem;
+  }
+  
+  button {
+    padding: 12px 14px;
+    border: none;
+    background-color: #5DC0DF;
+    /* color: white; */
+    border-radius: 50px;
+    cursor: pointer;
+  }
