@@ -6,10 +6,10 @@ const Accommodations = () => {
   return (
     <>
     <Header/>
-    <div className='accommodations'>
+    {/* <div className='accommodations'>
       <div>Accommodations</div>
       <video src="src\Assets\Beach.mp4"></video>
-      </div>
+      </div> */}
       </>
   )
 }

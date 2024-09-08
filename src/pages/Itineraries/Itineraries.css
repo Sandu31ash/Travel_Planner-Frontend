@@ -6,7 +6,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 4rem;
-    height: 100vh;
+    height: 100%;
     padding-top: 10rem;
   }
   
@@ -26,10 +26,11 @@
   }
   
   .itiBtn{
-    /* background-color: #5c5c5c; */
-    color: white;
+    padding: 12px 14px;
     border: none;
-    border-radius: 2rem;
+    background-color: #5DC0DF;
+    /* color: white; */
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -68,6 +69,8 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
   }
   
   .itiImg {
@@ -77,9 +80,16 @@
     border-radius: 5px;
   }
   
-  span {
-    margin-left: 10px;
-    font-family: "Roboto", sans-serif;
+  .listies{
+    span {
+      margin-left: 10px;
+      font-family: "Roboto", sans-serif;
+      width: 5.2rem;
+  }
+}
+
+  .flights{
+    padding-right: 2rem;
   }
   
   @media (max-width: 768px) {

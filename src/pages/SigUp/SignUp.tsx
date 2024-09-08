@@ -14,7 +14,7 @@ function SignUp() {
           <input type="text" placeholder="Country" required />
           <input type="email" placeholder="Email Address" required />
           <input type="password" placeholder="Password" required />
-          <button type="submit"><NavLink to="/signIn" className='navLink'>SignUp</NavLink>
+          <button type="submit" className='submitBtn'><NavLink to="/signIn" className='navLink'>SignUp</NavLink>
           </button>
           {/* <button type="submit">Sign Up</button><br /><br /> */}
           <p>Already have an account? <a href="/signIn">SignIn</a></p>

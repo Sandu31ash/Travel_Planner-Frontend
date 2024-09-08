@@ -65,7 +65,7 @@ const ChatBot = () => {
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        <button onClick={handleSendMessage}><IoSend size={25} color='white' className="chatbot-icon" /></button>
+        <button className='chatBotBtn' onClick={handleSendMessage}><IoSend size={25} color='white' className="chatbot-icon" /></button>
       </div>
     </div>
     </div>

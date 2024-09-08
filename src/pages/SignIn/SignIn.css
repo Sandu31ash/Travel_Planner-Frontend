@@ -31,7 +31,7 @@
     border-radius: 5px;
   }
   
-  button {
+  .submitBtn {
     background-color: #5DC0DF;
     /* color: whitesmoke; */
     padding: 10px 20px;

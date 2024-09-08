@@ -13,7 +13,7 @@ function SignIn() {
         <form>
           <input type="email" placeholder="Email Address" required />
           <input type="password" placeholder="Password" required />
-          <button type="submit"><NavLink to="/dashboard" className='navLink'>SignIn</NavLink>
+          <button type="submit" className='submitBtn'><NavLink to="/dashboard" className='navLink'>SignIn</NavLink>
           </button><br /><br />
           
           {/* <NavLink to="/SignUp">SignIn</NavLink> */}

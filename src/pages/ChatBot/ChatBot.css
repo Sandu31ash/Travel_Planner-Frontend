@@ -96,7 +96,7 @@
     height: 5rem;
   }
   
-  button {
+  .chatBotBtn {
     padding: 12px 14px;
     border: none;
     background-color: #5DC0DF;

@@ -46,9 +46,9 @@ const Header = () => {
           {/* <li><Link to="/flights">Flights</Link></li> */}
 
           
-          <NavLink to="/home" className='navLink'>Home</NavLink>
+          <NavLink to="/" className='navLink'>Home</NavLink>
           {/* <NavLink to="/dashboard" className='navLink'>Dashboard</NavLink> */}
-          <NavLink to="/accommodations" className='navLink'>Accommodations</NavLink>
+          {/* <NavLink to="/accommodations" className='navLink'>Accommodations</NavLink> */}
           <NavLink to="/tripplanner" className='navLink'>Trip Planner</NavLink>
           {/* <NavLink to="/weather" className='navLink'>Weather</NavLink> */}
           <NavLink to="/itineraries" className='navLink'>Itineraries</NavLink>

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Header from '../../Components/Header/Header';
 import { IoSend } from 'react-icons/io5';
 
+import './Itineraries.css'
+
 function Itineraries() {
   const [startingDate, setStartingDate] = useState('');
   const [endingDate, setEndingDate] = useState('');
@@ -29,6 +31,7 @@ function Itineraries() {
     <Header/>
     <div style={{ backgroundImage: 'linear-gradient(to top, #5DC0DF, white)' }}>
       <div className="container">
+        <h1>Itineraries</h1>
         <div className='textBtn'>
           <textarea placeholder="Enter your travel ideas as you wish..."></textarea>
           <button className='itiBtn'><IoSend size={25} color='white' className="chatbot-icon" /></button><br /><br />
@@ -44,7 +47,7 @@ function Itineraries() {
         <div className="columns">
           <div className="flights">
             <h3>Flights</h3>
-            <ul>
+            <ul className='listies'>
               {/* {flights.map((flight) => ( */}
                 <li>
                   <img className='itiImg' src='src\Assets\emirates.png' alt='AirlineImg' />
@@ -52,6 +55,13 @@ function Itineraries() {
                   <span>EK-547</span>
                   <span>2024-09-06</span>
                    <span>20:42</span>
+                 </li>
+                 <li>
+                  <img className='itiImg' src='src\Assets\slairline.png' alt='AirlineImg' />
+                  <span>Sri Lankan Airlines</span>
+                  <span>UL-173</span>
+                  <span>2024-09-05</span>
+                   <span>21:57</span>
                  </li>
               
                 {/* // <li key={flight.flightNo}> */}
@@ -70,8 +80,14 @@ function Itineraries() {
               {/* {hotels.map((hotel) => ( */}
                 <li>
                 <img className='itiImg' src='src\Assets\jetwing.png' alt='Hotel Img'/>
-                <span>Jetiwing</span>
+                <span>Jetwing</span>
                 <span>Galle</span>
+                <span>Reviews</span>
+              </li>
+              <li>
+                <img className='itiImg' src='src\Assets\hilton.png' alt='Hotel Img'/>
+                <span>Hilton</span>
+                <span>Colombo</span>
                 <span>Reviews</span>
               </li>
                 {/* // <li key={hotel.hotel}> */}
